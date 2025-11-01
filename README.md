@@ -2,8 +2,11 @@
 Generates the Password of given length from the choices of characters by the user input.
 
 💻 Project Features:
+
 🔹 Built with React Hooks — useState, useCallback, and useEffect for clean and optimized logic.
+
 🔹 Users can customize password length (starting from 8) and choose from the following options:
+
  1️⃣ Uppercase Letters (A–Z)
  2️⃣ Lowercase Letters (a–z)
  3️⃣ Numbers (0–9)
