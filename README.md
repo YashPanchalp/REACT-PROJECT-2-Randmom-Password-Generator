@@ -1,22 +1,16 @@
-# REACT-PROJECT-2-Randmom-Password-Generator
-Generates the Password of given length from the choices of characters by the user input.
+# React + Vite
 
-💻 Project Features:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🔹 Built with React Hooks — useState, useCallback, and useEffect for clean and optimized logic.
+Currently, two official plugins are available:
 
-🔹 Users can customize password length (starting from 8) and choose from the following options:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
- 1️⃣ Uppercase Letters (A–Z)
- 
- 2️⃣ Lowercase Letters (a–z)
+## React Compiler
 
- 3️⃣ Numbers (0–9)
- 
- 4️⃣ Special Symbols (!@#$%^&*)
- 
-🔹 Added a dynamic password length controller and instant password regeneration on change.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🔹 Designed with Tailwind CSS featuring a 3D animated gradient background and smooth hover effects.
+## Expanding the ESLint configuration
 
-🧠 This project strengthened my understanding of React component reactivity, state management, and user interface enhancement with Tailwind.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
